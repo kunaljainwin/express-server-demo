@@ -4,7 +4,7 @@ WORKDIR /var/app
 
 COPY package*.json /var/app/
 
-RUN "npm i --production"
+RUN npm install --production
 
 COPY index.js .
 
