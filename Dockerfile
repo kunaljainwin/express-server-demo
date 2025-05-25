@@ -10,4 +10,4 @@ COPY index.js .
 
 EXPOSE 3000
 
-CMD ["npm","start"]
+CMD ["npm","star"]
